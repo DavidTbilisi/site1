@@ -1,0 +1,11 @@
+.button{
+    padding: 1.5rem;
+    background: $base-color;
+    color: $white;
+    font-size: 1.6rem;
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+        color: darken($white,5%);
+    }
+}

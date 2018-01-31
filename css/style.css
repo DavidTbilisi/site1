@@ -1,3 +1,8 @@
+@font-face {
+  font-family: extrasquare;
+  src: url(base/bpg_extrasquare_mtavruli_2009.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,15 +10,27 @@
 
 html, body {
   font-size: 62.5%;
+  font-family: extrasquare;
+  width: 100%;
+  height: 100%;
 }
 
-@font-face {
-  font-family: extrasquare;
-  src: url(base/bpg_extrasquare_mtavruli_2009.ttf);
+.button {
+  padding: 1.5rem;
+  background: #3ea6aa;
+  color: white;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: #f2f2f2;
 }
 
 .header {
   font-size: 1.6rem;
+  background: #3ea6aa;
 }
 
 .header--line1 {
@@ -36,12 +53,7 @@ html, body {
 }
 
 .header--nav ul li a {
-  padding: 1rem;
   text-decoration: none;
-  font-family: extrasquare;
-}
-
-.header--contact {
-  background: blue;
+  padding: 2rem;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,7 @@
 .header{
     font-size: 1.6rem;
+    background: $base-color;
+    
     &--line1{
         display: flex;
         justify-content: space-between;
@@ -9,7 +11,6 @@
 
     &--logo{
         background: red;
-        
     }
 
     &--nav{
@@ -18,9 +19,8 @@
             li{
                 list-style: none;
                 a{
-                    padding: 1rem;
                     text-decoration: none;
-                    font-family: extrasquare;
+                    padding: 2rem;
                 }
             }
         }
@@ -28,6 +28,5 @@
 
         
     &--contact{
-        background: blue;
     }
 }
