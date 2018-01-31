@@ -1,0 +1,9 @@
+.header{
+    font-size: 1.6rem;
+    &--line1{
+        display: flex;
+        justify-content: space-between;
+        width: $header--line1-width;
+        margin: 0 auto;
+    }
+}

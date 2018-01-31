@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-size: 62.5%;
+}
+
+.header {
+  font-size: 1.6rem;
+}
+
+.header--line1 {
+  display: flex;
+  justify-content: space-between;
+  width: 80rem;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */
