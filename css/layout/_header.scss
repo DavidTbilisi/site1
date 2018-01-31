@@ -6,4 +6,28 @@
         width: $header--line1-width;
         margin: 0 auto;
     }
+
+    &--logo{
+        background: red;
+        
+    }
+
+    &--nav{
+        ul{
+            display: flex;
+            li{
+                list-style: none;
+                a{
+                    padding: 1rem;
+                    text-decoration: none;
+                    font-family: extrasquare;
+                }
+            }
+        }
+    }
+
+        
+    &--contact{
+        background: blue;
+    }
 }
