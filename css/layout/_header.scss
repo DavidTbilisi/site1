@@ -7,10 +7,11 @@
         justify-content: space-between;
         width: $header--line1-width;
         margin: 0 auto;
+        padding: $header--padding 0;
     }
 
     &--logo{
-        background: red;
+        background: rgb(123, 129, 167);
     }
 
     &--nav{
@@ -20,7 +21,13 @@
                 list-style: none;
                 a{
                     text-decoration: none;
-                    padding: 2rem;
+                    padding: $header--padding;
+                    color:$white;
+                    transition: all .2s ease-in-out;
+                    &:hover{
+                        color: darken($white, 5%);
+                        background: darken($base-color,5%);
+                    }
                 }
             }
         }
