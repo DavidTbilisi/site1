@@ -3,11 +3,13 @@
     background: $base-color;
     
     &--line1{
-        display: flex;
-        justify-content: space-between;
+
         width: $header--line1-width;
         margin: 0 auto;
-        padding: $header--padding 0;
+        display: flex;
+        // flex-flow: wrap;
+        // padding: $header--padding 0;
+;
     }
 
     &--logo{
@@ -15,6 +17,7 @@
     }
 
     &--nav{
+
         ul{
             display: flex;
             li{
@@ -37,3 +40,5 @@
     &--contact{
     }
 }
+
+
