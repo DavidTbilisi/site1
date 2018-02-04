@@ -316,16 +316,21 @@ html, body {
   color: #f2f2f2;
 }
 
-.form {
-  background: white;
+.input-button {
+  border-radius: 50px;
+  width: 40% !important;
 }
 
 .form header {
   background: white;
+  border-bottom: 1px solid black;
 }
 
 .form input {
   width: 100%;
+  border-radius: 3px;
+  margin: 10px 0;
+  padding: 5px;
 }
 
 .header {

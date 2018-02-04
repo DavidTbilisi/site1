@@ -1,0 +1,48 @@
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible" content="ie=edge")
+    title site1
+    link(rel="stylesheet" href="css/vendors/bootstrap.css")
+    link(rel="stylesheet" href="css/style.css")
+  body
+    header.header
+      .container
+        .header--line1
+          .header--logo.flex-center
+            img(src="../assets/header/artsite_logo.png" alt="")
+          .header--nav
+            ul
+              li
+                a(href="#")  მთავარი 
+              li
+                a(href="#")  ჩვენს შესახებ 
+              li
+                a(href="#")  გალერეა 
+              li
+                a(href="#")  კონტაქტი 
+          .header--contact.flex-center
+            a.button(href="#") ტელ: +995 598 58 88 74
+        .slide1.text-center
+          .title.col-sm-12
+            h1
+              | სამხატვრო გალერეა
+              br
+              | გამოფენა გაყიდვა
+          .formbox
+            .form.col-sm-6
+              .inner.bg1.rounded1.padding4
+                header
+                    p მიიღე ფასდაკლება გალერეაში
+                body
+                    form(action="")
+                    input(name="name" placeholder="სახელი" type="text")
+                    input(name="email" placeholder="ელ.ფოსტა" type="text")
+                    input.input-button(type="submit" value="გაგზავნა")
+                footer
+            .info-box.col-sm-6
+              .inner.bg1.rounded1.padding4
+                p
+                    | Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ab in ad, eos, dolor qui quasi neque illum praesentium impedit voluptatem earum repellendus alias maiores accusantium! Officiis animi eaque praesentium?
+    
