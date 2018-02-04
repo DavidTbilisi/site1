@@ -1,0 +1,57 @@
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@for $padd from 1 through 4{
+    .padding#{$padd}{
+        padding:  #{$padd}#{"%"};
+    }
+    .padding-left#{$padd}{
+        padding-left:  #{$padd}#{"%"};
+    }
+    .padding-right#{$padd}{
+        padding-right:  #{$padd}#{"%"};
+    }
+    .padding-top#{$padd}{
+        padding-top:  #{$padd}#{"%"};
+    }
+    .padding-bottom#{$padd}{
+        padding-bottom:  #{$padd}#{"%"};
+    }
+    .padding-lr#{$padd}{
+        padding-left:  #{$padd}#{"%"};
+        padding-right:  #{$padd}#{"%"};
+    }
+    .padding-tb#{$padd}{
+        padding-top:  #{$padd}#{"%"};
+        padding-bottom:  #{$padd}#{"%"};
+    }
+}
+
+@for $marg from 1 through 4{
+    .margin#{$marg}{
+        margin: #{$marg}#{"%"};
+    }
+    .margin-left#{$marg}{
+        margin-left: #{$marg}#{"%"};
+    }
+    .margin-right#{$marg}{
+        margin-right: #{$marg}#{"%"};
+    }
+    .margin-top#{$marg}{
+        margin-top: #{$marg}#{"%"};
+    }
+    .margin-bottom#{$marg}{
+        margin-bottom: #{$marg}#{"%"};
+    }
+    .margin-lr#{$marg}{
+        margin-left: #{$marg}#{"%"};
+        margin-right: #{$marg}#{"%"};
+    }
+    .margin-tb#{$marg}{
+        margin-top: #{$marg}#{"%"};
+        margin-bottom: #{$marg}#{"%"};
+    }
+}
