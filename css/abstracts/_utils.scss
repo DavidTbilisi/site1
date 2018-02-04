@@ -55,3 +55,22 @@
         margin-bottom: #{$marg}#{"%"};
     }
 }
+
+
+@for $round from 1 through 4{
+    .rounded#{$round}{
+        border-radius: #{$round}#{"0px"};
+    }
+}
+
+
+@for $round from 1 through 4{
+    .bg#{$round}{
+        background:$white;
+    }
+}
+
+// [class*="col-"]{
+//     margin: 0 5px;
+//     border: 1px solid blueviolet;
+// }
