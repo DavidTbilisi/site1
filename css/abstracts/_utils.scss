@@ -64,13 +64,9 @@
 }
 
 
-@for $round from 1 through 4{
+@for $round from 1 through 2{
     .bg#{$round}{
         background:$white;
+        min-height: 50px;
     }
 }
-
-// [class*="col-"]{
-//     margin: 0 5px;
-//     border: 1px solid blueviolet;
-// }

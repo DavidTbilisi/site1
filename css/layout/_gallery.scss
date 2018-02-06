@@ -1,0 +1,21 @@
+.slide3{
+    @include bg("gallery/artsite_gallery.png");
+    color: rgba(255, 255, 255, 0.808);
+    padding-bottom: 4rem;
+    .title{
+        margin-top: 2rem;
+        font-size: 5rem;
+    }
+    .gallery-inner{
+        height: 25rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+    .span-price{
+        color: rgba(255, 255, 255, 0.42);
+        display: inline;
+    }
+    .price{
+        display: inline;
+    }
+}

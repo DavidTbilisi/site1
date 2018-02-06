@@ -262,18 +262,12 @@
 
 .bg1 {
   background: white;
+  min-height: 50px;
 }
 
 .bg2 {
   background: white;
-}
-
-.bg3 {
-  background: white;
-}
-
-.bg4 {
-  background: white;
+  min-height: 50px;
 }
 
 @font-face {
@@ -287,9 +281,29 @@
   box-sizing: border-box;
 }
 
-html, body {
+html, body, section {
   font-size: 62.5%;
   font-family: extrasquare;
+  width: 100%;
+  height: 100%;
+}
+
+.slide1 {
+  width: 100%;
+  height: 100%;
+}
+
+.slide2 {
+  width: 100%;
+  height: 100%;
+}
+
+.slide3 {
+  width: 100%;
+  height: 100%;
+}
+
+.slide4 {
   width: 100%;
   height: 100%;
 }
@@ -407,7 +421,8 @@ html, body {
   background: #72969d;
 }
 
-.header .slide1 {
+.slide1 {
+  font-size: 1.6rem;
   background: #72969d;
   background-image: url(../../assets/header/artsite.png);
   background-position: center;
@@ -416,13 +431,104 @@ html, body {
   position: relative;
 }
 
-.header .title h1 {
+.slide1 .title h1 {
   text-align: center;
   color: #ffff99;
 }
 
-.header .info-box .inner {
+.slide1 .info-box .inner {
   background: rgba(255, 255, 255, 0.6);
   color: #646464;
+}
+
+.slide2 {
+  font-size: 1.6rem;
+  background: #72969d;
+  background-image: url(../../assets/about/pattern.png);
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  padding-bottom: 4rem;
+}
+
+.slide2 > .title {
+  padding: 5rem 0 12rem 0;
+  font-size: 5rem;
+}
+
+.slide2 .person-box {
+  background: white;
+  box-shadow: 0px 0px 30px -10px black;
+  position: relative;
+  text-align: center;
+}
+
+.slide2 .person-box .title {
+  padding-top: 9rem;
+  font-size: 5rem;
+}
+
+.slide2 .person-box .text {
+  padding: 2rem;
+}
+
+.slide2 img {
+  position: absolute;
+  top: -25%;
+  right: 50%;
+  transform: translate(50%, 0%);
+}
+
+.slide3 {
+  font-size: 1.6rem;
+  background: #72969d;
+  background-image: url(../../assets/gallery/artsite_gallery.png);
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: rgba(255, 255, 255, 0.808);
+  padding-bottom: 4rem;
+}
+
+.slide3 .title {
+  margin-top: 2rem;
+  font-size: 5rem;
+}
+
+.slide3 .gallery-inner {
+  height: 25rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.slide3 .span-price {
+  color: rgba(255, 255, 255, 0.42);
+  display: inline;
+}
+
+.slide3 .price {
+  display: inline;
+}
+
+.slide4 {
+  font-size: 1.6rem;
+  background: #72969d;
+  background-image: url(../../assets/about/pattern.png);
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-bottom: 20rem;
+}
+
+.slide4 .form {
+  background: #dadada;
+  padding: 2rem;
+}
+
+.slide4 .form input:first-child {
+  margin-top: 0;
 }
 /*# sourceMappingURL=style.css.map */

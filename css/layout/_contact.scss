@@ -1,0 +1,13 @@
+.slide4{
+    @include bg("about/pattern.png");
+    padding-bottom: 20rem;
+    .form{
+        background: #dadada;
+        padding: 2rem;
+        input:first-child{
+            // padding-top: 0;
+            margin-top: 0;
+        }
+    }
+
+}

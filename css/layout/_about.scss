@@ -1,0 +1,28 @@
+.slide2{
+    @include bg("about/pattern.png", 100vh);
+    padding-bottom: 4rem;
+    >.title{
+        padding: 5rem 0 12rem 0 ;
+        font-size: 5rem;        
+    }
+    .person-box{
+        background: $white;
+        box-shadow: 0px 0px 30px -10px black;
+        position: relative;
+        text-align: center;
+        .title{
+            padding-top: 9rem;
+            font-size: 5rem;
+        }
+        .text{
+            padding: 2rem;
+        }
+    }
+    img{
+        position: absolute;
+        top:-25%;
+        right: 50%;
+        transform:translate(50%,0%);
+    }
+
+}
