@@ -9,9 +9,29 @@
         color: darken($white,5%);
     }
 }
-
-.input-button{
+.buttons{
     border-radius: 50px;
     width: 40% !important;
-    
+    padding: $header--padding - 1rem;
+    background: $button-color;
+    border: 1px solid darken($button-color,5%);
+}
+
+
+
+.form--button{
+@extend .buttons;
+&__right{
+    @extend .buttons;
+        float: right;
+        transition: all .4s ease-in-out;
+        &::after{
+            content: 'dav';
+            display: table;
+            clear: both;
+        }
+        &:hover{
+            color:darken($text-color,  10%);
+        }
+    }
 }

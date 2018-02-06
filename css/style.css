@@ -303,6 +303,33 @@ html, body {
   height: 0;
 }
 
+.form .inner {
+  background: rgba(255, 255, 255, 0.493);
+}
+
+.form header {
+  background: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.342);
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px 5px 0 0;
+}
+
+.form form, .form footer {
+  padding: 2rem;
+}
+
+.form input {
+  margin: 10px 0;
+}
+
+.form input[type="text"] {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 5px 5px 20px;
+  width: 100%;
+}
+
 .button {
   padding: 1.5rem;
   background: #354c5a;
@@ -316,21 +343,27 @@ html, body {
   color: #f2f2f2;
 }
 
-.input-button {
+.buttons, .form--button, .form--button__right {
   border-radius: 50px;
   width: 40% !important;
+  padding: 1rem;
+  background: #cfcfcf;
+  border: 1px solid #c2c2c2;
 }
 
-.form header {
-  background: white;
-  border-bottom: 1px solid black;
+.form--button__right {
+  float: right;
+  transition: all .4s ease-in-out;
 }
 
-.form input {
-  width: 100%;
-  border-radius: 3px;
-  margin: 10px 0;
-  padding: 5px;
+.form--button__right::after {
+  content: 'dav';
+  display: table;
+  clear: both;
+}
+
+.form--button__right:hover {
+  color: #5a7b81;
 }
 
 .header {
@@ -381,5 +414,15 @@ html, body {
   width: 100%;
   height: 90vh;
   position: relative;
+}
+
+.header .title h1 {
+  text-align: center;
+  color: #ffff99;
+}
+
+.header .info-box .inner {
+  background: rgba(255, 255, 255, 0.6);
+  color: #646464;
 }
 /*# sourceMappingURL=style.css.map */

@@ -54,5 +54,15 @@
         height: 90vh;
         position: relative;
     }
+
+    .title h1{
+        text-align: center;
+        color:$text-yellow-color;
+
+    }
+    .info-box .inner{
+        background: rgba(255, 255, 255, .6);
+        color: rgb(100, 100, 100);
+    }
 }
 

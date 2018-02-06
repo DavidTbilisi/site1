@@ -1,13 +1,28 @@
 .form{
-    
+    .inner{
+        background:rgba(255, 255, 255, 0.493);
+    }
     header{
     background: $white;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.342);
+    text-align: center;
+    padding: 15px;
+    border-radius: $border-radius $border-radius  0 0;
+
     }
+    form,footer{
+        padding: $header--padding;
+    }
+
     input{
-        width: 100%;
-        border-radius: 3px;
         margin: 10px 0;
-        padding: 5px;
+        &[type="text"]{
+            border: none;
+            border-radius: $border-radius ;
+            padding: 5px 5px 5px 20px;
+            width: 100%;
+
+        }
+    
     }
 }
