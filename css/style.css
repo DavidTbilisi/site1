@@ -270,6 +270,10 @@
   min-height: 50px;
 }
 
+.full-height {
+  height: 100%;
+}
+
 @font-face {
   font-family: extrasquare;
   src: url(base/bpg_extrasquare_mtavruli_2009.ttf);
@@ -526,9 +530,32 @@ html, body, section {
 .slide4 .form {
   background: #dadada;
   padding: 2rem;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.slide4 .form .no-left-padding {
+  padding-left: 0px;
+}
+
+.slide4 .form .no-right-padding {
+  padding-right: 0px;
 }
 
 .slide4 .form input:first-child {
   margin-top: 0;
+}
+
+.slide4 .form .textarea {
+  width: 100%;
+  border: none;
+}
+
+.slide4 .form .button {
+  border: none;
+  width: 100%;
+  padding: 1rem;
+  background: #10a094;
 }
 /*# sourceMappingURL=style.css.map */
